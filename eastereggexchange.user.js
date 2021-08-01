@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         Chat easter eggs
-// @description  Enables moderation tools in private teams.
+// @name         EasterEggExchange
+// @description  Enables all easter Eggs in Stack Exchange chat.
 // @author       Anonymous
 // @version      1.0.0
 // @run-at document-end
