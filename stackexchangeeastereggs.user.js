@@ -43,6 +43,15 @@ $(document).ready(function() {
         }
       }
     });
+    function tryToInitializeWOB() {
+      if($("#loading").length) { // if chat is not done loading...
+        window.setTimeout(tryToInitializeWOB, 100); // ...try again in .1 seconds
+      }
+      else {
+    		Eggs.WOB.init(); // otherwise, initialize the wheel of blame
+      }
+    }
+    tryToInitializeWOB();
   } + ")();");
 });
 $("head").append(script);
